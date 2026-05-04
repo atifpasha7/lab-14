@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact – Alex Johnson</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-brand">Portfolio<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+  </nav>
+
+  <section class="page-hero">
+    <span class="hero-tag">Let's Connect</span>
+    <h1 class="page-title">Get In <span class="highlight">Touch</span></h1>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-info">
+      <h2>Contact Details</h2>
+      <div class="contact-item">
+        <span class="contact-icon">📧</span>
+        <div>
+          <strong>Email</strong>
+          <p>alex.johnson@email.com</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">📍</span>
+        <div>
+          <strong>Location</strong>
+          <p>Karachi, Pakistan</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">🌐</span>
+        <div>
+          <strong>GitHub</strong>
+          <p>github.com/alexjohnson</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <h2>Send a Message</h2>
+      <div class="contact-form">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="e.g. Sara Ahmed" id="nameInput"/>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="e.g. sara@email.com" id="emailInput"/>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Write your message here..." id="messageInput" rows="5"></textarea>
+        </div>
+        <button class="btn btn-primary" id="sendBtn">Send Message</button>
+        <p class="form-success" id="formSuccess" style="display:none;">✅ Message sent successfully!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Alex Johnson &nbsp;|&nbsp; <a href="contact.html">Contact Me</a></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
