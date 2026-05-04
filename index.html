@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio – Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-brand">Portfolio<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-tag">Welcome to My Portfolio</span>
+      <h1 class="hero-title">Hello, I'm<br/><span class="highlight">Atif pasha</span></h1>
+      <p class="hero-sub">A passionate web developer building beautiful and functional digital experiences.</p>
+      <div class="hero-buttons">
+        <a href="about.html" class="btn btn-primary">About Me</a>
+        <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="card-inner">
+        <div class="avatar">AJ</div>
+        <p class="card-name">Atif pasha</p>
+        <p class="card-role">Software Engineer</p>
+        <div class="card-skills">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section">
+    <h2 class="section-title">What I Do</h2>
+    <div class="skills-grid">
+      <div class="skill-card" style="--delay:0s">
+        <div class="skill-icon">🎨</div>
+        <h3>UI Design</h3>
+        <p>Crafting clean, modern interfaces that are intuitive and visually appealing.</p>
+      </div>
+      <div class="skill-card" style="--delay:0.1s">
+        <div class="skill-icon">💻</div>
+        <h3>Web Development</h3>
+        <p>Building responsive websites using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="skill-card" style="--delay:0.2s">
+        <div class="skill-icon">📱</div>
+        <h3>Responsive Design</h3>
+        <p>Ensuring every site looks great on any screen size or device.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects-section">
+    <h2 class="section-title">Recent Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-thumb" style="background: linear-gradient(135deg,#f093fb,#f5576c);">01</div>
+        <div class="project-info">
+          <h3>E-Commerce Site</h3>
+          <p>A fully responsive online store with cart functionality.</p>
+          <span class="project-tag">HTML / CSS / JS</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb" style="background: linear-gradient(135deg,#4facfe,#00f2fe);">02</div>
+        <div class="project-info">
+          <h3>Weather App</h3>
+          <p>Real-time weather lookup using a public API.</p>
+          <span class="project-tag">JavaScript / API</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb" style="background: linear-gradient(135deg,#43e97b,#38f9d7);">03</div>
+        <div class="project-info">
+          <h3>Task Manager</h3>
+          <p>A minimal to-do app with local storage persistence.</p>
+          <span class="project-tag">HTML / CSS / JS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Alex Johnson &nbsp;|&nbsp; <a href="contact.html">Contact Me</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
